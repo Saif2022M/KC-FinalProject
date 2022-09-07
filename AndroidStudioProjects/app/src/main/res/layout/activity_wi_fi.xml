@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE9E9"
+    android:orientation="vertical"
+    tools:context=".WiFi">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDE7E7"
+        android:fontFamily="@font/toto"
+        android:gravity="center"
+        android:text="شبكات الانترنت"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#EDE7E7"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/wifi"
+            android:layout_width="match_parent"
+            android:layout_height="266dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#A59999"
+            android:src="@drawable/giff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EDE7E7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_marginTop="20dp"
+                android:background="#EDE7E7"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="OOredOO"
+                    app:srcCompat="@drawable/oreeedoo" />
+
+                <ImageView
+                    android:id="@+id/imageView49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="zain"
+                    app:srcCompat="@drawable/zainnn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="184dp"
+                android:layout_marginTop="10dp"
+                android:background="#EDE7E7"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/stc"
+                    android:onClick="STC"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

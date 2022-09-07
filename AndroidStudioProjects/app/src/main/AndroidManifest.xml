@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication5555">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication5555"
+        tools:targetApi="31">
+        <activity
+            android:name=".PROF"
+            android:exported="false" />
+        <activity
+            android:name=".web"
+            android:exported="false" />
+        <activity
+            android:name=".CCC2"
+            android:exported="false" />
+        <activity
+            android:name=".CCC1"
+            android:exported="false" />
+        <activity
+            android:name=".Moone"
+            android:exported="false" />
+        <activity
+            android:name=".BBB2"
+            android:exported="false" />
+        <activity
+            android:name=".BBB1"
+            android:exported="false" />
+        <activity
+            android:name=".WiFi"
+            android:exported="false" />
+        <activity
+            android:name=".Moasalat"
+            android:exported="false" />
+        <activity
+            android:name=".AAA2"
+            android:exported="false" />
+        <activity
+            android:name=".AAA1"
+            android:exported="false" />
+        <activity
+            android:name=".VISA"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Nobza"
+            android:exported="false" />
+        <activity
+            android:name=".Nacehaa"
+            android:exported="false" />
+        <activity
+            android:name=".lhga"
+            android:exported="false" />
+        <activity
+            android:name=".Trath"
+            android:exported="false" />
+        <activity
+            android:name=".histroy"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

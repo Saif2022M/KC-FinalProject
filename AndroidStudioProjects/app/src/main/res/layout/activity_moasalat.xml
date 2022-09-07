@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Moasalat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/toto"
+        android:gravity="center"
+        android:text="المواصلات"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/shorq"
+                android:gravity="center"
+                android:text="أهم الباصات "
+                android:textColor="@color/black"
+                android:textSize="30sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="324dp"
+                android:layout_height="228dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/see" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="172dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="164dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="166dp"
+                        app:srcCompat="@drawable/op" />
+
+                    <ImageView
+                        android:id="@+id/imageView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="163dp"
+                        app:srcCompat="@drawable/g999" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="194dp"
+                        android:layout_height="151dp"
+                        android:fontFamily="@font/shorq"
+                        android:gravity="center"
+                        android:text="الفحيحيل - المنقف - طريق البحر - ابو حليفة - طريق البحر - الفنطاس - المسيلة - الدائري السادس - الزهراء - هيئة المعلومات المدنية - الصديق - خيطان - الفروانية - الغزالي 60 - الدائري السادس - الحساوي - الجليب."
+
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/shorq"
+                        android:gravity="center"
+                        android:text="الشيراتون - شرق -السالمية - حديقة الشعب - ميدان حولي - شارع بغداد - شارع عمان - شارع حمد المبارك - طريق الخليج العربي- دوار البدع - الرميثية - سلوي - المسيلة - الفنطاس - المهبولة - المنقف - شارع مكة - الفحيحيل."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/a102" />
+
+                    <ImageView
+                        android:id="@+id/imageView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/ops" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="219dp"
+                        android:layout_height="187dp"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/shorq"
+                        android:gravity="center"
+                        android:text="الشيراتون - شارع فهد السالم - الدروازة - مجمع الأوقاف - شارع السور - طريق الاستقلال 30 - الدائري الثالث - شارع تونس - الدائري الرابع - طريق الفحيحيل 30 - الفنطاس - طريق البحر - الفحيحيل."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="220dp"
+                        android:layout_height="187dp"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/shorq"
+                        android:gravity="center"
+                        android:text="الشيراتون - الدروازة - طريق الاستقلال 30 - بنيد القار - الشعب - الدائري الرابع - مطافي السالمية - شارع عمان - شارع المغيرة بن شعبة - البوليڤارد - شارع قطر - شارع سالم المبارك - سالمية بالاس - الجامعة الأمريكية - شارع حمد المبارك - نادي السالمية - السالمية."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/tatae" />
+
+                    <ImageView
+                        android:id="@+id/imageView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/a1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="53dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/shorq"
+                        android:gravity="center"
+                        android:text="الفحيحيل - شارع مكة - المنقف - طريق البحر - أبو حليفة - المهبولة - الفنطاس - العقيلة - جيت مول - الدائري السابع - أسواق القرين - صبحان - طريق المطار 50 - خيطان - الفروانية - الري - الأڤنيوز - الرقعي - دوار الأمم المتحدة."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5sp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/shorq"
+                        android:gravity="center"
+                        android:text="السالمية - شارع المغيرة بن شعبة - مطافي السالمية - الدائري الرابع - سلطان الشويخ - الري - الأڤنيوز."
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

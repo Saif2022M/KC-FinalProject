@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Trath">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rr"
+        android:gravity="center"
+        android:text="التــــراث الكويــتــي"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="160dp"
+                    android:background="#FFFFFF">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t1" />
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t2" />
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t3" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t5" />
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t6" />
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t7" />
+
+                    <ImageView
+                        android:id="@+id/imageView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t8" />
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/t9" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="تميزت الحياة الاجتماعية منذ القدم في المجتمع الكويتي بالترابط الأسري، حيث كان المنزل الواحد يضم جميع أفراد الأسرة من الجد أو الجدة والأبناء والأحفاد. ولما كان في تلك الحقبة الكثير من الأعباء على رب الأسرة كان لزامًا على الشباب أن يبدأوا العمل في سن مبكرة جدًا، كما أنهم يتزوجون في سن صغيرة أيضًا. وكانت أدوار كل فرد من أفراد الأسرة واضحة ومعروفة، حيث يكون دور الرجال العمل وكسب لقمة العيش والنساء دورهم التربية والاهتمام بشؤون المنزل. أما القرارات داخل البيت فكانت تتخذ من قبل كبير الأسرة."
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="يتميز المجتمع الكويتي بتجمع العائلة والجيران والأصدقاء وهناك الكثير من المناسبات التي يتم الاحتفال بها، منها النون وهي احتفالية بسيطة عادة ما يكون سببها ظهور أول سن لطفل أو ظهور علامات المشي لدى الطفل. عادةً ما تقام «النون» في فترة العصر، فتقوم الأم بفرش سجادة أمام البيت ثم تذهب إلى سطح الدار وهي تحمل سلة تحتوي الحلويات التي تلقيها على الحاضرين. ويقوم الأطفال بجمعها وحملها في أطراف ملابسهم. بينما دق الهريس فهي مناسبة تقوم الأسرة بشراء كميات كبيرة من حبوب القمح المطحونة استعدادًا لقدوم شهر رمضان. ثم تدعو بعض النساء لطحن حبوب القمح لصنع الهريس. ومناسبة القريش تتم في الليلة التي تسبق أول أيام شهر رمضان، حيث تجمع كل أسرة ما تبقى لديها من فائض الطعام، أو الطعام الذي لا يصلح أكله في رمضان، وتتجمع لأكله في آخر وجبة غداء قبل رمضان. أما مناسبة القرقيعان فهي تقليد سنوي ومناسبة تراثية يحتفل بها خلال ليالي 13 و 14 و 15 من شهر رمضان، حيث يخرج الأطفال مرتدين زيًا شعبيًا خاصًا لهذه المناسبة ويتجولون بالشوارع يطرقون أبواب الجيران ويرددون أهازيج وأغنيات خاصة بالمناسبة ثم يوزع أصحاب البيوت الحلوى عليهم. وتختلف الأهازيج الخاصة بالصبيان عن أهازيج البنات. أيضًا تعدّ الغبقة مناسبة رمضانية اجتماعية، ومظهر من مظاهر التواصل الاجتماعي في شهر رمضان حيث يجتمع الأهالي والأصدقاء في ليالي رمضان لتناول وليمة قبل منتصف الليل ويتبادلون أطراف الحديث عن الأحوال الاجتماعية والمهنية والعامة. والكلمة جاءت من «الغبوق» وهو حليب الناقة الذي يشرب ليلًا"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
